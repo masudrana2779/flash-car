@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+
+
+//-----Color class style
+
+.primary-color {
+	color:$primary-color;
+}
+
+.brand-color {
+	color:$brand-color;
+}
+
+.dark {
+	color:$dark;
+}
+
+.gray-light {
+	color:$gray-light;
+}
+
+.gray-color {
+	color:$gray-color;
+}
+
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+.lato {
+	font-family: $lato;
+}
+
+.poppins {
+	font-family: $poppins;
+}
+
+p {
+	font-family:$p-font-family;
+	font-size:$p-font-size;
+	line-height:$p-line-height;
+	font-weight:$p-font-weight;
+}
+
+a {
+	text-decoration:$a-text-decuration;
+	color:$a-color;
+}
+
+.underline {
+	text-decoration:underline !important;
+}
+
+.hover-color:hover {
+	color:$brand-color;
+}
+
+a:hover {
+	color:$brand-color;
+}
+
+a:focus {
+	outline:none !important;
+}
+
+a.link {
+	color:$brand-color;
+}
+
+a.link:hover {
+	color:$brand-color !important;
+}
